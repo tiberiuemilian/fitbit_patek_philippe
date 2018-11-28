@@ -1,0 +1,21 @@
+<svg viewport-fill="#111111">
+  <image x="-3" y="3" width="300" height="300" href="fc_7.png" />
+  
+  <g id="mins" pointer-events="visible" transform="translate(50%,50%)">
+    <rect x="$-2" y="-110" width="4" height="110" fill="#B0E0E6" />
+  </g>
+  <g id="hours" pointer-events="visible" transform="translate(50%,50%)">
+    <rect x="$-4" y="-75" width="8" height="75" fill="#708090" />
+  </g>  
+  <circle cx="50%" cy="50%" r="10" fill="#111111" />
+  
+  <g id="secs" pointer-events="visible" transform="translate(148,215)">
+    <rect x="$-1" y="-42" width="2" height="42" fill="#ff0000" />
+  </g>  
+  <circle cx="148" cy="215" r="4" fill="#111111" />
+  
+  <text id="date" x="246" y="160" fill="white" font-size="24" font-family="Tungsten" text-anchor="middle"
+        text-length="2">00
+  </text>
+  
+</svg>
